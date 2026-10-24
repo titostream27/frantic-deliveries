@@ -1,4 +1,4 @@
-# Safe Mode held-send: approve a MAP-described campaign
+# Safe Mode held-send run: approving a MAP-described campaign
 
 Run 24 Oct 2026, Nitrosend free tier, account 12940, brand `bozagent.nitrosend.net`.
 
