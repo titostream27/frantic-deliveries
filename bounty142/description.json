@@ -1,0 +1,62 @@
+{
+ "@id": "urn:uuid:48fb4620-f64b-535e-b789-e13dd326b1fd",
+ "type": {
+  "id": "https://mailschema.org/types/campaign-send-approval",
+  "version": "0.1",
+  "contractDigest": "sha-256:de3c88a0712adb1d0c6e82f437b825c83520d8e1c44c7b032a2cfcfe5ce55731"
+ },
+ "@type": "MailAction",
+ "human": {
+  "url": "https://app.nitrosend.com/my/map/reviews/329"
+ },
+ "terms": {
+  "id": "https://api.nitrosend.com/v1/my/map/approvals/329",
+  "version": "sha-256:3ca68862d68bc30b41f51d7d7906e466e4fc570cdbc435ee5c9b73c09ff23e9a"
+ },
+ "details": {
+  "sender": {
+   "name": "AelfLab",
+   "mailbox": "hello@bozagent.nitrosend.net",
+   "replyTo": "hello@bozagent.nitrosend.net"
+  },
+  "content": {
+   "id": "https://api.nitrosend.com/v1/my/templates/24358",
+   "title": "Approve this send: bounty 142",
+   "digest": "sha-256:e84c054ee6096249e7467effc327e1bb00ab6a66f84f91b5f79b39c9ae6206b2",
+   "revision": "2"
+  },
+  "summary": "bounty142-key asked to send \"Approve this send: bounty 142\" to 1 recipient.",
+  "audience": {
+   "id": "urn:nitrosend:campaign-send:3210:audience",
+   "count": 1,
+   "label": "1 contact list",
+   "revision": "d5ba178ce5eb80b7ab2acbeffb96da585305206a2c01fdae7716b611935aca02"
+  },
+  "schedule": {
+   "mode": "immediate"
+  },
+  "requester": "bounty142-key"
+ },
+ "profile": "https://mailschema.org/profiles/map/0.3",
+ "service": {
+  "id": "https://api.nitrosend.com",
+  "tenant": "urn:nitrosend:brand:13067"
+ },
+ "subject": {
+  "id": "https://api.nitrosend.com/v1/my/campaigns/15199",
+  "title": "Safe Mode held send - bounty 142"
+ },
+ "@context": "https://mailschema.org/contexts/map-0.3.jsonld",
+ "issuedAt": "2026-10-24T12:18:09Z",
+ "expiresAt": "2026-10-27T12:18:09Z",
+ "recipient": "titostream27@gmail.com",
+ "inLanguage": "en",
+ "operations": [
+  {
+   "id": "approve"
+  },
+  {
+   "id": "decline"
+  }
+ ]
+}
